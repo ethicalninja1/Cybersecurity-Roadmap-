@@ -1,0 +1,2 @@
+async function db(method,body){const base=process.env.SUPABASE_URL?.replace(/\/$/,'');const key=process.env.SUPABASE_SERVICE_ROLE_KEY;if(!base||!key)throw new Error('Database not configured');const response=await fetch(`${base}/rest/v1/roadmap_content?id=eq.1`,{method,headers:{apikey:key,Authorization:`Bearer ${key}`,'Content-Type':'application/json',Prefer:'return=representation'},...(body?{body:JSON.stringify(body)}:{})});if(!response.ok)throw new Error(`Database request failed (${response.status})`);return response.json()}
+module.exports={db};

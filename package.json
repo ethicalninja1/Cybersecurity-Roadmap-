@@ -1,0 +1,11 @@
+{
+  "name": "ethical-ninja-roadmap-2027",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

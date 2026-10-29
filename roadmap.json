@@ -1,0 +1,266 @@
+[
+  {
+    "title_en": "Linux, Networking & Foundations",
+    "title_hi": "लिनक्स, नेटवर्किंग और बुनियाद",
+    "level": "Beginner",
+    "desc_en": "Build computer, operating-system, and networking literacy.",
+    "desc_hi": "कंप्यूटर, ऑपरेटिंग सिस्टम और नेटवर्किंग की बुनियाद सीखें।",
+    "weeks": [
+      {
+        "en": "Computer hardware, OS, virtual machines",
+        "hi": "कंप्यूटर, OS और वर्चुअल मशीन"
+      },
+      {
+        "en": "Linux filesystem, permissions, shell",
+        "hi": "लिनक्स फाइल सिस्टम, परमिशन और शेल"
+      },
+      {
+        "en": "IP, subnetting, DNS, TCP/UDP, HTTP",
+        "hi": "IP, सबनेटिंग, DNS, TCP/UDP, HTTP"
+      },
+      {
+        "en": "Security principles, CIA triad, threat models",
+        "hi": "सुरक्षा सिद्धांत, CIA ट्रायड, थ्रेट मॉडल"
+      }
+    ],
+    "project_en": "Create an Ubuntu VM and document 15 commands.",
+    "project_hi": "Ubuntu VM बनाएं और 15 कमांड डॉक्यूमेंट करें।",
+    "command": "pwd\nls -la\nwhoami\nip addr\nss -tuln\ntraceroute example.com",
+    "example_en": "Run these in your own Linux VM; note interfaces, services and routes.",
+    "example_hi": "इन्हें अपनी Linux VM में चलाकर इंटरफेस, सर्विस और रूट नोट करें।",
+    "resources": [
+      {
+        "name": "Linux Journey",
+        "url": "https://linuxjourney.com/"
+      },
+      {
+        "name": "Cisco Skills",
+        "url": "https://skillsforall.com/"
+      },
+      {
+        "name": "OverTheWire Bandit",
+        "url": "https://overthewire.org/wargames/bandit/"
+      }
+    ]
+  },
+  {
+    "title_en": "Programming & Secure Web Basics",
+    "title_hi": "प्रोग्रामिंग और सुरक्षित वेब की बुनियाद",
+    "level": "Beginner+",
+    "desc_en": "Learn Python, HTML, CSS, JavaScript, PHP, SQL, Git and input validation.",
+    "desc_hi": "Python, HTML, CSS, JavaScript, PHP, SQL, Git और इनपुट वैलिडेशन सीखें।",
+    "weeks": [
+      {
+        "en": "Python scripting and JSON",
+        "hi": "Python स्क्रिप्टिंग और JSON"
+      },
+      {
+        "en": "HTML, CSS, JavaScript, browser tools",
+        "hi": "HTML, CSS, JavaScript और ब्राउजर टूल"
+      },
+      {
+        "en": "PHP, SQL and prepared statements",
+        "hi": "PHP, SQL और प्रिपेयर्ड स्टेटमेंट"
+      },
+      {
+        "en": "Git, authentication and secure coding",
+        "hi": "Git, ऑथेंटिकेशन और सुरक्षित कोडिंग"
+      }
+    ],
+    "project_en": "Build a local PHP login form using password_hash and prepared queries.",
+    "project_hi": "password_hash और prepared queries से लोकल PHP लॉगिन बनाएं।",
+    "command": "python3 -m http.server 8000\nphp -S localhost:8080\ngit init",
+    "example_en": "Serve only a local practice project; never expose development servers publicly.",
+    "example_hi": "केवल लोकल प्रैक्टिस प्रोजेक्ट सर्व करें; डेवलपमेंट सर्वर पब्लिक न रखें।",
+    "resources": [
+      {
+        "name": "MDN Web Docs",
+        "url": "https://developer.mozilla.org/"
+      },
+      {
+        "name": "PHP Manual",
+        "url": "https://www.php.net/manual/en/"
+      },
+      {
+        "name": "Python Tutorial",
+        "url": "https://docs.python.org/3/tutorial/"
+      }
+    ]
+  },
+  {
+    "title_en": "Web Application Security",
+    "title_hi": "वेब एप्लिकेशन सुरक्षा",
+    "level": "Intermediate",
+    "desc_en": "Understand OWASP risks, session security, XSS, SQL injection and safe remediation.",
+    "desc_hi": "OWASP जोखिम, सेशन सुरक्षा, XSS, SQL इंजेक्शन और सुरक्षित सुधार समझें।",
+    "weeks": [
+      {
+        "en": "HTTP requests, cookies and sessions",
+        "hi": "HTTP रिक्वेस्ट, कुकी और सेशन"
+      },
+      {
+        "en": "OWASP Top 10 and access control",
+        "hi": "OWASP Top 10 और एक्सेस कंट्रोल"
+      },
+      {
+        "en": "XSS and SQLi in isolated training labs",
+        "hi": "आइसोलेटेड लैब में XSS और SQLi"
+      },
+      {
+        "en": "Burp Suite, reporting and mitigations",
+        "hi": "Burp Suite, रिपोर्ट और सुधार"
+      }
+    ],
+    "project_en": "Complete three PortSwigger beginner labs and write remediation notes.",
+    "project_hi": "तीन PortSwigger शुरुआती लैब पूरी करके सुधार लिखें।",
+    "command": "curl -I https://example.com\npython3 -m http.server 8000",
+    "example_en": "Compare response headers and practice only in deliberately vulnerable labs.",
+    "example_hi": "रिस्पॉन्स हेडर देखें और केवल अधिकृत ट्रेनिंग लैब में अभ्यास करें।",
+    "resources": [
+      {
+        "name": "PortSwigger Academy",
+        "url": "https://portswigger.net/web-security"
+      },
+      {
+        "name": "OWASP Top 10",
+        "url": "https://owasp.org/www-project-top-ten/"
+      },
+      {
+        "name": "OWASP Juice Shop",
+        "url": "https://owasp.org/www-project-juice-shop/"
+      }
+    ]
+  },
+  {
+    "title_en": "Network Security & Ethical Assessment",
+    "title_hi": "नेटवर्क सुरक्षा और एथिकल असेसमेंट",
+    "level": "Intermediate",
+    "desc_en": "Learn asset inventory, traffic inspection and authorized assessment workflow.",
+    "desc_hi": "एसेट इन्वेंटरी, ट्रैफिक जांच और अधिकृत असेसमेंट वर्कफ्लो सीखें।",
+    "weeks": [
+      {
+        "en": "Scope, permission and rules of engagement",
+        "hi": "स्कोप, अनुमति और नियम"
+      },
+      {
+        "en": "Nmap basics on your own localhost",
+        "hi": "अपने localhost पर Nmap की बुनियाद"
+      },
+      {
+        "en": "Wireshark filters and protocol analysis",
+        "hi": "Wireshark फिल्टर और प्रोटोकॉल"
+      },
+      {
+        "en": "Hardening, evidence and report writing",
+        "hi": "हार्डनिंग, एविडेंस और रिपोर्ट"
+      }
+    ],
+    "project_en": "Audit your own lab VM and produce an executive summary.",
+    "project_hi": "अपनी लैब VM का ऑडिट करके रिपोर्ट बनाएं।",
+    "command": "nmap -sV 127.0.0.1\nss -tulpen\nsudo tcpdump -i lo -c 10",
+    "example_en": "Scan localhost only; expand scope only with explicit written permission.",
+    "example_hi": "केवल localhost स्कैन करें; स्कोप बढ़ाने से पहले लिखित अनुमति लें।",
+    "resources": [
+      {
+        "name": "Nmap Reference",
+        "url": "https://nmap.org/book/man.html"
+      },
+      {
+        "name": "Wireshark Docs",
+        "url": "https://www.wireshark.org/docs/"
+      },
+      {
+        "name": "NIST CSF",
+        "url": "https://www.nist.gov/cyberframework"
+      }
+    ]
+  },
+  {
+    "title_en": "Blue Team, SOC & Cloud",
+    "title_hi": "ब्लू टीम, SOC और क्लाउड",
+    "level": "Intermediate+",
+    "desc_en": "Practice log analysis, detection engineering, incident response and cloud IAM.",
+    "desc_hi": "लॉग एनालिसिस, डिटेक्शन, इंसिडेंट रिस्पॉन्स और क्लाउड IAM सीखें।",
+    "weeks": [
+      {
+        "en": "Linux/Windows logs and SIEM concepts",
+        "hi": "Linux/Windows लॉग और SIEM"
+      },
+      {
+        "en": "MITRE ATT&CK and detection logic",
+        "hi": "MITRE ATT&CK और डिटेक्शन लॉजिक"
+      },
+      {
+        "en": "Incident response and timeline building",
+        "hi": "इंसिडेंट रिस्पॉन्स और टाइमलाइन"
+      },
+      {
+        "en": "Cloud IAM, MFA and security baselines",
+        "hi": "क्लाउड IAM, MFA और बेसलाइन"
+      }
+    ],
+    "project_en": "Investigate a synthetic failed-login log and write an incident timeline.",
+    "project_hi": "सिंथेटिक फेल्ड-लॉगिन लॉग की जांच और टाइमलाइन बनाएं।",
+    "command": "journalctl --since \"1 hour ago\"\nlast -n 10\nsha256sum sample.log",
+    "example_en": "Use sample logs or systems you administer; correlate timestamps and document findings.",
+    "example_hi": "सैंपल लॉग या अपने सिस्टम का उपयोग करके टाइमस्टैम्प और निष्कर्ष लिखें।",
+    "resources": [
+      {
+        "name": "MITRE ATT&CK",
+        "url": "https://attack.mitre.org/"
+      },
+      {
+        "name": "CyberDefenders",
+        "url": "https://cyberdefenders.org/"
+      },
+      {
+        "name": "AWS Security Learning",
+        "url": "https://skillbuilder.aws/"
+      }
+    ]
+  },
+  {
+    "title_en": "Capstone, CTF & Career",
+    "title_hi": "कैपस्टोन, CTF और करियर",
+    "level": "Advanced track",
+    "desc_en": "Combine practical skills, communicate findings and prepare a credible portfolio.",
+    "desc_hi": "सीखी हुई स्किल जोड़ें, निष्कर्ष समझाएं और पोर्टफोलियो तैयार करें।",
+    "weeks": [
+      {
+        "en": "Choose a specialization: red, blue or appsec",
+        "hi": "स्पेशलाइजेशन चुनें: रेड, ब्लू या ऐपसेक"
+      },
+      {
+        "en": "Complete authorized CTF challenges",
+        "hi": "अधिकृत CTF चैलेंज पूरे करें"
+      },
+      {
+        "en": "Capstone: assess and harden a lab app",
+        "hi": "कैपस्टोन: लैब ऐप की जांच और हार्डनिंग"
+      },
+      {
+        "en": "Write reports, GitHub portfolio and interview prep",
+        "hi": "रिपोर्ट, GitHub पोर्टफोलियो और इंटरव्यू"
+      }
+    ],
+    "project_en": "Publish a sanitized assessment report with evidence and fixes.",
+    "project_hi": "एविडेंस और फिक्स के साथ सुरक्षित रिपोर्ट प्रकाशित करें।",
+    "command": "git status\ngit add README.md\ngit commit -m \"Document security lab\"",
+    "example_en": "Publish no secrets, private IPs, personal data or exploitable production details.",
+    "example_hi": "सीक्रेट, निजी डेटा या प्रोडक्शन एक्सप्लॉइट विवरण प्रकाशित न करें।",
+    "resources": [
+      {
+        "name": "picoCTF",
+        "url": "https://picoctf.org/"
+      },
+      {
+        "name": "TryHackMe",
+        "url": "https://tryhackme.com/"
+      },
+      {
+        "name": "OWASP Testing Guide",
+        "url": "https://owasp.org/www-project-web-security-testing-guide/"
+      }
+    ]
+  }
+]

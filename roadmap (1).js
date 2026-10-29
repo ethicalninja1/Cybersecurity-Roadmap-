@@ -1,0 +1,1 @@
+const {db}=require('../lib/db');const {noStore}=require('../lib/auth');const fallback=require('../roadmap.json');module.exports=async(req,res)=>{noStore(res);if(req.method!=='GET')return res.status(405).json({error:'Method not allowed'});try{const rows=await db('GET');return res.status(200).json(rows[0]?.content||fallback)}catch(e){return res.status(200).json(fallback)}};
